@@ -16,6 +16,22 @@ Imprima a quantidade de litros necessária para realizar a viagem, com três dí
 */
 
 
+// Solução DIO
+
+let line = gets().split(" ");
+
+
+let hora = parseInt(line[0]);
+let percurso = parseInt(line[1]);
+
+const media =  hora * percurso;        
+const mediaFinal = (media / 12);
+
+print(" " + mediaFinal.toFixed(3));
+
+
+// Solução URI
+
 let line = input.split("\n");
 
 
