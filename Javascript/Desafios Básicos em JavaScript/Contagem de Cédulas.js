@@ -12,7 +12,7 @@ de saída abaixo. Após cada linha deve ser imprimido o fim de linha.
  
 */
 
-let n = 1500;
+let n = parseInt(gets());
 let quantidadeNotas = 0;
 let cedulas = [100,50,20,10,5,2,1];
 
